@@ -7,15 +7,17 @@ Scene Segmentation Using the MovieScenes Dataset
 Run in command line: 
 `pip install -r requirements.txt`
 
-### Running the Solution:
+### Data
 
-The data provided for this coding challenge is in `data_dir` folder. The data is stored in `.pkl` files in form dictionary. The data contains:
+Download the data from [here](https://drive.google.com/file/d/1oZSOkd4lFmbY205VKQ9aPv1Hz3T_-N6e/view?usp=sharing) and unzip the it in `data_dir` folder, within same directory. The data is stored in `.pkl` files in form dictionary. The data contains:
 
 1. Movie Level: It is IMDB ID of the movie.
 2. Shot Level: It has 4 features; place, cast, action and audio. Each feature is 2 dimensional tensor where first feature is number of shots in the movie and second feature is feature is vector, in this case 2048, 512, 512, and 512, respectively.
 3. Scene Level: It has ground truth, preliminary predictions and end frame index for each shot.
 
-Predictions are made around ground truth. Probability is calculated of a shot boundary being a scene boundary. To run `solutions.py`:
+### Running the Solution:
+
+Predictions are made for the ground truth. Probability is calculated of a shot boundary being a scene boundary. To run `solutions.py`:
 
 1. Make a folder `my_predictions` or whatever you like to name it, without any spaces in it.
 2. Run: `python solution.py data_dir my_predictions` in command line.
