@@ -7,7 +7,7 @@ Scene Segmentation Using the MovieScenes Dataset
 Run in command line: 
 `pip install -r requirements.txt`
 
-### Data
+### Data:
 
 Download the data from [here](https://drive.google.com/file/d/1oZSOkd4lFmbY205VKQ9aPv1Hz3T_-N6e/view?usp=sharing) and unzip the it in `data_dir` folder, within same directory. The data is stored in `.pkl` files in form dictionary. The data contains:
 
