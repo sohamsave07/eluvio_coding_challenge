@@ -28,3 +28,6 @@ Predictions are made for the ground truth. Probability is calculated of a shot b
 To evaluate my prediction, I used `evaluate_sceneseg.py` provided by Eluvio, which can be found in [this repository](https://github.com/eluv-io/elv-ml-challenge). For evaluating the predictions stored in `my_predictions`, run: `python evaluate_sceneseg.py my_predictions`.
 The below screenshot is evaluated results I got on my predictions.
 ![Evaluation Results](https://user-images.githubusercontent.com/42371264/109766011-d9004200-7bb2-11eb-83f4-19754a31fe4b.png)
+
+### Contributors:
+Soham Kundan Save
